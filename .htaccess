@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "GWDA"
-AuthUserFile "/home1/mreedcom/.htpasswds/public_html/gwda/passwd"
-require valid-user
