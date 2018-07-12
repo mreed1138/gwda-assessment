@@ -1,0 +1,134 @@
+/* Mixin */
+/* line 16, ../scss/style.scss */
+.disable {
+  opacity: .25;
+}
+/* line 18, ../scss/style.scss */
+.disable a {
+  cursor: pointer !important;
+}
+
+/* line 24, ../scss/style.scss */
+.errorBox {
+  border: 1px red solid;
+}
+/* line 26, ../scss/style.scss */
+.errorBox:before {
+  content: "Issue: You forgot to assess this point.";
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+/* line 36, ../scss/style.scss */
+.hiddenLabel {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+/* line 42, ../scss/style.scss */
+#initials {
+  min-width: 200px;
+}
+
+/* line 46, ../scss/style.scss */
+.centerIt {
+  margin: 1rem auto !important;
+  width: 25% !important;
+  min-width: 150px;
+  display: block !important;
+}
+
+/* line 53, ../scss/style.scss */
+.topic:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1.2em;
+  border-radius: 45px;
+}
+
+/* line 63, ../scss/style.scss */
+.sub-topic {
+  margin-bottom: 1.2em;
+}
+
+/* line 67, ../scss/style.scss */
+.sub-topic:after {
+  content: "";
+  display: block;
+  width: 100%;
+  float: none;
+  clear: both;
+}
+
+/* line 75, ../scss/style.scss */
+.report .panel {
+  padding: 0px;
+}
+
+/* line 79, ../scss/style.scss */
+h5 {
+  padding: 0px;
+}
+/* line 82, ../scss/style.scss */
+h5 a {
+  display: block;
+  width: 100%;
+  /*height:100%;*/
+  padding: 2.5%;
+}
+
+/* line 88, ../scss/style.scss */
+.rubric {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 91, ../scss/style.scss */
+.rubric li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border: 1px #000 solid;
+  height: 50px;
+  transition: all ease 0.25s;
+}
+/* line 98, ../scss/style.scss */
+.rubric span {
+  display: block;
+  text-align: center;
+}
+/* line 102, ../scss/style.scss */
+.rubric span:last-child {
+  font-size: 0.7em;
+}
+
+/* line 109, ../scss/style.scss */
+.v-c {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 113, ../scss/style.scss */
+.selected {
+  background-color: #fff68f;
+  transform: scale(1.15);
+  z-index: 10;
+  border: none !important;
+  border-style: none !important;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* line 122, ../scss/style.scss */
+.unselected {
+  background-color: white;
+  opacity: 0.25;
+  transform: scale(1);
+}
